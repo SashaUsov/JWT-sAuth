@@ -1,0 +1,11 @@
+databaseChangeLog:
+
+    - changeSet:
+            id: 1
+            author: sasha_vosu
+            changes:
+
+            - createSequence:
+                incrementBy: 1
+                sequenceName: usr_sequence
+                startValue: 1

@@ -1,0 +1,6 @@
+databaseChangeLog:
+
+    - include:
+        file: db/20181126T1520_create_user_table.yaml
+    - include:
+        file: db/20181126T1524_usr_sequence.yaml
