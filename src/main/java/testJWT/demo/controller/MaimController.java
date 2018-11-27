@@ -17,7 +17,7 @@ class MainController {
     }
 
     @GetMapping("greeting")
-    public String getGreeating() {
+    public String getGreeting() {
 
         return mainService.getGreeting();
     }

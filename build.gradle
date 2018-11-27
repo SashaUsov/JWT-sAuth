@@ -27,8 +27,8 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	implementation('org.springframework.boot:spring-boot-starter-web')
-	compile('org.liquibase:liquibase-core')
 	runtimeOnly('org.springframework.boot:spring-boot-devtools')
+	compile('org.liquibase:liquibase-core')
 	compile('org.postgresql:postgresql')
 	compile('org.projectlombok:lombok')
 
